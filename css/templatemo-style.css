@@ -7,7 +7,7 @@ https://templatemo.com/tm-516-known
 */
   body {
     background: #ebebeb;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', 'Monotype','Arial', sans-serif;
     overflow-x: hidden;
     padding-top: 50px;
   }
@@ -17,26 +17,26 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', 'Monotype','Arial', sans-serif;
     font-weight: bold;
     line-height: inherit;
+	color: #2b135e;
   }
 
   h1 {
-    color: #2b135e;
     font-size: 4em;
     line-height: normal;
   }
 
   h2 {
-    color: #2b135e;
-    font-size: 3em;
+     font-size: 3em;
+	 line-height: normal;
  
   }
 
   h3 {
     font-size: 2.5em;
-    margin-bottom: 0;
+    line-height: normal;
   }
 
   h3,
@@ -167,12 +167,12 @@ https://templatemo.com/tm-516-known
     padding: 20px 0;
   }
 
-  #team,
+  #ucuBranch,
   #testimonial {
     background: #f9f9f9;
   }
 
-  #team, 
+  #ucuBranch, 
   #testimonial {
     text-align: center;
   }
@@ -371,10 +371,14 @@ https://templatemo.com/tm-516-known
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    background-color: #e74898;);
-    height: 80%;
+    background-color: #ebebeb;
+    height: 400px;
     color: #fff;
     cursor: e-resize;
+	padding-top: 100px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
   }
 
   .home-slider .item {
@@ -388,48 +392,15 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/RectorsLawn.jpg);
+    background-image: url(../images/ucu_main_col_lg1.png);
 	background-position: center;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/hsb.jpg);
+    background-image: url(../images/sec188.png);
+	background-position: center;
+	height: 400px;
   }
-
-  .home-slider .item-third {
-    background-image: url(../images/studentsWalking.jpg);
-}
-
-
-
-  /*---------------------------------------
-     PSYCHSOC DARK BLUE CIRCLE           
-  -----------------------------------------*/
-
-  .feature-thumb {
-    border: 1px solid #f0f0f0;
-    padding: 5em 3em;
-  }
-
-  .feature-thumb span {
-    background: #011532;
-	border-radius: 50px;
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    margin-bottom: 5px;
-  }
-
-  .feature-thumb h3 {
-    margin: 10px 0;
-  }
-
-
 
   /*---------------------------------------
       REPS            
@@ -463,10 +434,10 @@ https://templatemo.com/tm-516-known
   }
 
   /*---------------------------------------
-      TEAM              
+      ucuBranch              
   -----------------------------------------*/
 
-  .team-thumb {
+  .ucuBranch-thumb {
     background: #ffffff;
     position: relative;
     overflow: hidden;
@@ -474,14 +445,14 @@ https://templatemo.com/tm-516-known
   }
 
 
-  .team-top {
+  .ucuBranch-top {
     position: relative;
   }
-  .team-image img {
+  .ucuBranch-image img {
     width: 100%;
   }
  
-  .team-date {
+  .ucuBranch-date {
     width: 100%;
     position: absolute;
 	bottom: 0;
@@ -489,47 +460,47 @@ https://templatemo.com/tm-516-known
 	color: white;
   }
 
-  .team-date span {
+  .ucuBranch-date span {
     color: #ffffff;
     display: inline-block;
     margin-right: 10px;
   }
   
-  .team-info {
+  .ucuBranch-info {
     padding: 20px 30px;
 	font-size: 16px;
   }
 
 
-  .team-thumb .social-icon {
-    border-top: 1px solid #f0f0f0;
+  .ucuBranch-thumb .social-icon {
+    border-top: 1px solid #ebebeb;
     padding: 4px 20px 0 20px;
   }
 
-  .team-thumb .social-icon li a {
+  .ucuBranch-thumb .social-icon li a {
     background: #ffffff;
     color: #252020;
   }
 
-  .team-info h3 {
+  .ucuBranch-info h3 {
     margin: 0;
   }
 
 
   /*---------------------------------------
-      COURSES             
+      news             
   -----------------------------------------*/
 
-  #courses .section-title {
-    text-align: center;
+  #news .section-title {
+    text-align: left;
 	margin-top: 50px;
   }
 
-  #courses .owl-theme .owl-nav {
+  #news .owl-theme .owl-nav {
     margin-top: 30px;
   }
 
-  #courses .owl-theme .owl-nav [class*=owl-] {
+  #news .owl-theme .owl-nav [class*=owl-] {
     border-radius: 2px;
     font-size: 16px;
     width: 30px;
@@ -540,61 +511,64 @@ https://templatemo.com/tm-516-known
   }
 
 
-  .courses-thumb {
+  .news-thumb {
     background: #ffffff;
     position: relative;
     text-align: left;
   }
 
-  .courses-top {
+  .news-top {
     position: relative;
   }
 
-  .courses-image {
+  .news-image {
     background: #ffffff;
   }
 
-  .courses-date {
+  .news-date {
     width: 100%;
     position: absolute;
 	bottom: 0;
 	padding: 20px 25px;
 	  color: white;
   }
-  .courses-date span,
-  .courses-author span {
+  .news-date span,
+  .news-author span {
     font-size: 14px;
     font-weight: bold;
   }
 
-  .courses-date span {
+  .news-date span {
     color: #ffffff;
     display: inline-block;
     margin-right: 10px;
   }
 
-  .courses-detail {
+  .news-detail {
     padding: 25px 25px 15px 25px;
   }
 
-  .courses-detail h3 {
+  .news-detail h3 {
     margin: 0 0 2px 0;
+	    font-size: 14px;
+    font-weight: bold;
+	color: #252020;
   }
 
-  .courses-info {
-    border-top: 1px solid #f0f0f0;
+  .news-info {
+    border-top: 1px solid #d9d9d9;
     position: relative;
     clear: both;
     padding: 15px 25px;
   }
 
-  .courses-author,
-  .courses-author span {
+  .news-author,
+  .news-author span {
     display: inline-block;
     vertical-align: middle;
   }
 
-  .courses-author img {
+  .news-author img {
     display: inline-block !important;
     border-radius: 50px;
     width: 50px !important;
@@ -602,48 +576,29 @@ https://templatemo.com/tm-516-known
     margin-right: 10px;
   }
 
-  .courses-price {
-    float: right;
-    margin-top: 10px;
-  }
-
-  .courses-price span {
-    background: #29ca8e;
-    border-radius: 2px;
-    color: #ffffff;
-    display: block;
-    padding: 5px 10px;
-  }
-
-  .courses-price.free span {
-    background: #3f51b5;
-  }
-
-
-
   /*---------------------------------------
      NEWS              
   -----------------------------------------*/
 
-  .news-thumb {
+  .events-thumb {
     clear: both;
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
   }
 
-  .news-thumb .news-image {
+  .events-thumb .events-image {
     float: left;
     width: 40%;
     margin-right: 30px;
   }
 
-  .news-info h3 {
+  .events-info h3 {
     margin-top: 5px;
     margin-bottom: 10px;
   }
 
-  .news-date span {
+  .events-date span {
     color: #909090;
     font-weight: bold;
   }
@@ -661,7 +616,7 @@ https://templatemo.com/tm-516-known
     text-align: left;
   }
 
-  #courses .col-md-4,
+  #news .col-md-4,
   #testimonial .col-md-4 {
     display: block;
     width: 100%;
@@ -914,7 +869,7 @@ https://templatemo.com/tm-516-known
 
     .feature-thumb,
     .about-info,
-    .team-thumb,
+    .ucuBranch-thumb,
     .footer-info {
       margin-bottom: 50px;
     }
